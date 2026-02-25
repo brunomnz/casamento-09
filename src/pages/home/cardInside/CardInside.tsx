@@ -8,28 +8,28 @@ function CardInside (): JSX.Element {
                     <p className="verse">
                         “<em>E, acima de tudo, tenham amor, pois o amor une perfeitamente todas as coisas.</em>” - Cl. 3:14
                     </p>
-                    <h1>Karina e Rodrigo</h1>
+                    <h1>Giovana & Bruno</h1>
                     <p className="textInvite">
                         Convidam para a celebração de seu casamento a ser realizada em
                     </p>
                 </div>
                 <div className='dataHorario'>
                     <div id='dateweek'>
-                        <p>SEXTA</p>
+                        <p>Sábado</p>
                     </div>
                     <div className="separador" id="s1"></div>
                     <div className="dateInvite">
-                    <div className="dateMes">SET</div>
-                    <div className="dateDia">13</div>
-                    <div className="dateAno">2024</div>
+                    <div className="dateMes">JUL</div>
+                    <div className="dateDia">24</div>
+                    <div className="dateAno">2027</div>
                     </div>
                     <div className="separador" id="s2"></div>
                     <div id="dateHour">
-                        <p>19H00 </p>
+                        <p>16h:00 </p>
                     </div>
                 </div>
                 <div className='place'>
-                    <p className='rest'>Local: Restaurante Di Liana</p>
+                    <p className='rest'>Local: Chácara Every Time Festas</p>
                 </div>
             </div>
         </>

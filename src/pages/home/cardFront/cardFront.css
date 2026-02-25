@@ -3,13 +3,14 @@
     --displayImg: flex;
     --heightCardFront: 400px;
     --heightCardFront2: 232px;
+    
 }
 
 .Close {
     --transformCardFront: rotateX(160deg);
-    --displayImg: none;
+    --displayImg: flex;
     --heightCardFront: 330px;
-    --heightCardFront2: 225px;
+    --heightCardFront2: 232px;
 }
 
 #cardFront {
@@ -34,6 +35,9 @@
 }
 
 .logoKR {
+      filter: brightness(1.05) contrast(1.2);
+  mix-blend-mode: darken;
+    max-height: 300px;
     display: var(--displayImg); 
     @media screen and (max-width: 768px) {
         width: 300px;

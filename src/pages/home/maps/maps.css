@@ -10,11 +10,23 @@
     backdrop-filter: blur(10px);
     margin-top: 55px;
     box-sizing: border-box;
+    height: 580px;
     @media screen and (max-width: 768px) {
         width: 360px;
     }
 }
-  
+
+.click{
+    width: auto;
+    padding: 10px 20px ;
+    margin-top: 0.5rem;
+}
+
+
+iframe{
+    margin: 0;
+}
+
 .address {
     margin: 3px 10px 10px 15px;
     display: flex;

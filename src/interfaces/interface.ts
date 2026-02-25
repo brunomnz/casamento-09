@@ -4,6 +4,7 @@ export interface imagesProps {
     alt1: string
     alt2: string
     showComponent?: boolean
+    text: string
 }
 
 export interface stateProp {

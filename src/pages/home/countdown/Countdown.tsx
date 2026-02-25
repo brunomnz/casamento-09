@@ -12,11 +12,11 @@ function Countdown ({showComponent}: showProp): JSX.Element {
     })
 
     function formatTime (time: number) {
-        return time < 10 ? `0${time}` : time
+        return time < 10 ? `${time}` : time
     }
 
     function countdown () {
-        const wedding = '2025-09-14'
+        const wedding = '2027-07-24 16:00'
         const weddingDate = new Date(wedding)
         const currentDate = new Date()
         
