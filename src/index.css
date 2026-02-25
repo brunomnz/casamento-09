@@ -16,8 +16,8 @@
 }
 
 .clicked {
-  --heightBody: 270vh;
-  --heightBody2: 200vh;
+  --heightBody: 100vh;
+  --heightBody2: 100vh;
 }
 
 body {

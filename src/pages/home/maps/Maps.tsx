@@ -35,7 +35,7 @@ function Maps({ showComponent }: showProp): JSX.Element {
                     <button className="buttonCopy" onClick={copiarTexto} title="Copiar"></button>
                 </div>
                 <div id="maps" className="mapBox">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4474.334818632167!2d-41.89471002412393!3d-18.836351882319445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb1098833d968af%3A0x9c89251fe5a11f15!2sEvery%20Time%20Festas!5e1!3m2!1spt-BR!2sbr!4v1772047907008!5m2!1spt-BR!2sbr"
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1118.5837374061473!2d-41.89277883038037!3d-18.83635189889499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb1098833d968af%3A0x9c89251fe5a11f15!2sEvery%20Time%20Festas!5e1!3m2!1spt-BR!2sbr!4v1772055283533!5m2!1spt-BR!2sbr"
                         style={iframeProps.style} allowFullScreen={iframeProps.allowFullScreen} loading={iframeProps.loading} referrerPolicy={iframeProps.referrerPolicy}>
                     </iframe>
 
