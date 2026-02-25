@@ -2,8 +2,6 @@ import { useRef } from 'react'
 import './maps.css'
 import { showProp } from '../../../interfaces/interface'
 import { iframeProps } from '../../../interfaces/interface'
-import { Link } from 'react-router-dom'
-import Button from "../Button"
 
 function Maps({ showComponent }: showProp): JSX.Element {
 
