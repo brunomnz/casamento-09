@@ -64,6 +64,14 @@ function GiftPage (): JSX.Element {
                         
                     })}
                 </ul>
+
+                <a className='botao-pix' href={"https://nubank.com.br/cobrar/4gdsv/69e12730-4526-44fe-837c-a82688768ce1"} target='_blank'>
+                    Clique aqui para contribuir com um valor de sua escolha (PIX)
+                </a>
+                <br></br>
+                <a className='botao-pix' href={"/"}>
+                    Voltar
+                </a>
             </div>
         </div>
     )
