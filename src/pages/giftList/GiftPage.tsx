@@ -43,13 +43,13 @@ function GiftPage (): JSX.Element {
             <div className='containerGifts'>
                 <ul id='gift-list'>
 
-                    <Gift imgSrc={giftImagesPaths.imgPix.jantar} textContent='Jantar romântico à luz de velas - R$ 100,00' variant='A' linkHref='https://nubank.com.br/cobrar/1dn1q2/6695657e-e1bf-4524-86b9-f72f1699258d' selectedGift={false}/>
+                    <Gift imgSrc={giftImagesPaths.imgPix.jantar} textContent='Jantar romântico à luz de velas - R$ 100,00' variant='A' linkHref='https://nubank.com.br/cobrar/4gdsv/69e120bf-43b6-48a5-a08d-6ea0e82349cd' selectedGift={false}/>
 
-                    <Gift imgSrc={giftImagesPaths.imgPix.passeio_barco} textContent='Passeio de barco ao pôr do sol - R$ 150,00' variant='A' linkHref='https://nubank.com.br/cobrar/1dn1q2/669565d6-eec8-4ecc-83f0-9cfb5df8e3ad' selectedGift={false} />
+                    <Gift imgSrc={giftImagesPaths.imgPix.passeio_barco} textContent='Passeio de barco ao pôr do sol - R$ 150,00' variant='A' linkHref='https://nubank.com.br/cobrar/4gdsv/69e120e8-30fe-41fc-80bf-301c05a0d1c7' selectedGift={false} />
 
-                    <Gift imgSrc={giftImagesPaths.imgPix.passeio_ilhas} textContent='Excursão pelas ilhas - R$ 200,00' variant='A' linkHref='https://nubank.com.br/cobrar/1dn1q2/669565fd-bfe9-4cc0-b823-413abf10b910' selectedGift={false}/>
+                    <Gift imgSrc={giftImagesPaths.imgPix.passeio_ilhas} textContent='Excursão pelas ilhas - R$ 200,00' variant='A' linkHref='https://nubank.com.br/cobrar/4gdsv/69e120f9-ddff-496c-9daa-5689fab324a3' selectedGift={false}/>
 
-                    <Gift imgSrc={giftImagesPaths.imgPix.passagem_aerea} textContent='Passagens aéreas - R$ 250,00' variant='A' linkHref='https://nubank.com.br/cobrar/1dn1q2/6695661e-ecbe-4aac-bcda-eb080d178407' selectedGift={false}/>
+                    <Gift imgSrc={giftImagesPaths.imgPix.passagem_aerea} textContent='Passagens aéreas - R$ 250,00' variant='A' linkHref='https://nubank.com.br/cobrar/4gdsv/69e1210a-2107-4f8e-90ed-c6a55279dfe5' selectedGift={false}/>
                     
                     {gifts.length > 0 && gifts.map((gift: giftListProps, index) => {                      
                         
