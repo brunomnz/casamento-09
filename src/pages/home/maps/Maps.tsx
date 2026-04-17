@@ -39,7 +39,7 @@ function Maps({ showComponent }: showProp): JSX.Element {
                         style={iframeProps.style} allowFullScreen={iframeProps.allowFullScreen} loading={iframeProps.loading} referrerPolicy={iframeProps.referrerPolicy}>
                     </iframe>
 
-                    <a href="https://www.google.com/maps/dir/?api=1&origin=-18.921428, -42.016291&destination=-18.836350,-41.892233&waypoints=-18.913438,-42.008209|-18.913411,-41.998188|-18.867319,-41.954296|-18.862878,-41.955965|-18.850553,-41.937358|-18.848894,-41.937767&travelmode=driving">
+                    <a  className='aclick' href="https://www.google.com/maps/dir/?api=1&origin=-18.921428, -42.016291&destination=-18.836350,-41.892233&waypoints=-18.913438,-42.008209|-18.913411,-41.998188|-18.867319,-41.954296|-18.862878,-41.955965|-18.850553,-41.937358|-18.848894,-41.937767&travelmode=driving">
                         <button
                             className="click" >
                             Clique aqui e veja o trajeto para quem vem de Ipatinga

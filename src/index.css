@@ -24,15 +24,15 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  background-image: url(./assets/back-lilas-1.jpeg);
+  background-image: url(./assets/fundo-verde-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-width: 320px;
   min-height: var(--heightBody);
+
   @media screen and (max-width: 768px) {
-    background-image: url(./assets/back-lilas-2.jpeg);
+    background-image: url(./assets/fundo-verde-1.png);
     min-height: var(--heightBody2);
   }
 }
-

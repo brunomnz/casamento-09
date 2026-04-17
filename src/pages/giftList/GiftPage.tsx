@@ -43,13 +43,28 @@ function GiftPage (): JSX.Element {
             <div className='containerGifts'>
                 <ul id='gift-list'>
 
-                    <Gift imgSrc={giftImagesPaths.imgPix.jantar} textContent='Jantar romântico à luz de velas - R$ 100,00' variant='A' linkHref='https://nubank.com.br/cobrar/4gdsv/69e120bf-43b6-48a5-a08d-6ea0e82349cd' selectedGift={false}/>
+                    <Gift imgSrc={giftImagesPaths.imgPix.jantar} 
+                        textContent='Jantar romântico à luz de velas - R$ 100,00' 
+                        variant='A' 
+                        linkHref='https://nubank.com.br/cobrar/4gdsv/69e120bf-43b6-48a5-a08d-6ea0e82349cd' 
+                        selectedGift={false}/>
 
-                    <Gift imgSrc={giftImagesPaths.imgPix.passeio_barco} textContent='Passeio de barco ao pôr do sol - R$ 150,00' variant='A' linkHref='https://nubank.com.br/cobrar/4gdsv/69e120e8-30fe-41fc-80bf-301c05a0d1c7' selectedGift={false} />
+                    <Gift imgSrc={giftImagesPaths.imgPix.passeio_barco} 
+                        textContent='Passeio de barco ao pôr do sol - R$ 150,00' 
+                        variant='A' 
+                        linkHref='https://nubank.com.br/cobrar/4gdsv/69e120e8-30fe-41fc-80bf-301c05a0d1c7' 
+                        selectedGift={false} />
 
                     <Gift imgSrc={giftImagesPaths.imgPix.passeio_ilhas} textContent='Excursão pelas ilhas - R$ 200,00' variant='A' linkHref='https://nubank.com.br/cobrar/4gdsv/69e120f9-ddff-496c-9daa-5689fab324a3' selectedGift={false}/>
 
                     <Gift imgSrc={giftImagesPaths.imgPix.passagem_aerea} textContent='Passagens aéreas - R$ 250,00' variant='A' linkHref='https://nubank.com.br/cobrar/4gdsv/69e1210a-2107-4f8e-90ed-c6a55279dfe5' selectedGift={false}/>
+
+                    <Gift imgSrc={renderGift(4)} textContent='Jogo de panelas - R$ 100,00' variant='A' linkHref='https://nubank.com.br/cobrar/4gdsv/69e120bf-43b6-48a5-a08d-6ea0e82349cd' selectedGift={false}/>
+                    <Gift imgSrc={renderGift(3)} textContent='Kit de toalhas - R$ 100,00' variant='A' linkHref='https://nubank.com.br/cobrar/4gdsv/69e120bf-43b6-48a5-a08d-6ea0e82349cd' selectedGift={false}/>
+                    <Gift imgSrc={renderGift(2)} textContent='Aspirador de pó - R$ 150,00' variant='A' linkHref='https://nubank.com.br/cobrar/4gdsv/69e120e8-30fe-41fc-80bf-301c05a0d1c7' selectedGift={false}/>
+                    <Gift imgSrc={renderGift(1)} textContent='Kit roupa de cama - R$ 250,00' variant='A' linkHref='https://nubank.com.br/cobrar/4gdsv/69e1210a-2107-4f8e-90ed-c6a55279dfe5' selectedGift={false}/>
+
+
                     
                     {gifts.length > 0 && gifts.map((gift: giftListProps, index) => {                      
                         

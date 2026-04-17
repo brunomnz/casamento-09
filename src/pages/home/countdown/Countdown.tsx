@@ -47,7 +47,9 @@ function Countdown ({showComponent}: showProp): JSX.Element {
         <> 
             {showComponent && (
                 <div className="container">
-                    <h2>Falta pouco para o grande dia...</h2>
+                    <div className="div-text">
+                        <h2>Falta pouco para o grande dia...</h2>
+                    </div>
                     <section id="countdow-container">
                         <div className="countdow days-c">
                             <p className="text" id="days">{formatTime(timeLeft.days)}</p>

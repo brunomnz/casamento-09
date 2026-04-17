@@ -6,37 +6,21 @@
 .container {
     border: solid 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    background-image: url(../../../assets/details-flowers.png);
+    background-image: url(../../../assets/fundo-contagem.jpg);
     backdrop-filter: blur(10px);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.325);
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 80vw;
     height: 230px;
     box-sizing: border-box;
-    @media screen and (max-width: 768px) {
-        width: 360px;
-        height: 122px;
-        background-size: 100% 100%;
-    }
-}
 
-h2 {
-    text-align: center;
-    justify-content: center;
-    font-family: 'Garet';
     @media screen and (max-width: 768px) {
-        font-size: 13px;
-    }
-}
-
-#countdow-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    @media screen and (max-width: 768px) {
-        margin: auto 0;
+        width: 90vw;
+        height: 202px;
     }
 }
 
@@ -46,11 +30,54 @@ h2 {
     font-size: 3rem;
     line-height: 1;
     margin: 1rem 2rem;
+
     @media screen and (max-width: 768px) {
         font-size: 1.5rem;
         margin: 0.4rem 1.4rem;
     }
 }
+
+
+h2 {
+    text-align: center;
+    justify-content: center;
+    font-family: 'Garet';
+    color: white;
+    margin: 0 0 0 0;
+
+    @media screen and (max-width: 768px) {
+        font-size: 18px;
+        margin: 0 0 0 0;
+    }
+}
+
+.div-text {
+    background-color: rgb(1, 88, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px 0;
+    margin: 20px 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (max-width: 768px) {
+        width: 90%;
+    }
+}
+
+#countdow-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        margin: auto 0;
+    }
+}
+
 
 .countdow {
     text-align: center;
@@ -59,14 +86,18 @@ h2 {
     border: solid 1px rgba(0, 0, 0, 0.11);
     border-radius: 8px;
     margin: 0 8px 0 8px;
+
     @media screen and (max-width: 768px) {
         margin: 0 4px;
+        width: 20vw;
+        padding: 10px 0;
     }
 }
 
 .countdow span {
     font-size: 1.2rem;
     margin-bottom: 15px;
+
     @media screen and (max-width: 768px) {
         font-size: 0.7rem;
     }

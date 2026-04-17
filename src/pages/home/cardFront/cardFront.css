@@ -2,15 +2,14 @@
     --transformCardFront: none;
     --displayImg: flex;
     --heightCardFront: 400px;
-    --heightCardFront2: 232px;
-    
+    --heightCardFront2: 400px;
 }
 
 .Close {
     --transformCardFront: rotateX(160deg);
     --displayImg: flex;
-    --heightCardFront: 330px;
-    --heightCardFront2: 232px;
+    --heightCardFront: 400px;
+    --heightCardFront2: 400px;
 }
 
 #cardFront {
@@ -18,15 +17,17 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    background-image: url(../../../assets/background-lavanda.png);
+    background-image: url(../../../assets/fundo-verde-3.avif);
     width: 600px;
+    height: 400px;
     height: var(--heightCardFront);
     overflow: hidden;
     transform-origin: top;
     transform: var(--transformCardFront);
-    box-shadow: inset 20px 10px 90px rgba(0,0,0,.13), 20px 0 40px rgba(0,0,0,0.1);
+    box-shadow: inset 20px 10px 90px rgba(0, 0, 0, .13), 20px 0 40px rgba(0, 0, 0, 0.1);
     transition: .6s;
     border-radius: 3px;
+
     @media screen and (max-width: 768px) {
         width: 360px;
         height: var(--heightCardFront2);
@@ -35,10 +36,11 @@
 }
 
 .logoKR {
-      filter: brightness(1.05) contrast(1.2);
-  mix-blend-mode: darken;
+    filter: brightness(1.05) contrast(1.2);
+    mix-blend-mode: darken;
     max-height: 300px;
-    display: var(--displayImg); 
+    display: var(--displayImg);
+
     @media screen and (max-width: 768px) {
         width: 300px;
         height: 300px;

@@ -6,6 +6,7 @@ import Button from "./Button"
 import imagePaths from "../../assets/imagePaths"
 import { Link } from "react-router-dom"
 import Maps from "./maps"
+import History from "./history"
 
 function Home (): JSX.Element  {
     const [opening, setOpening] = useState(false) 
@@ -53,6 +54,11 @@ function Home (): JSX.Element  {
                     <Button img1={imagePaths.button3.img1} img2={imagePaths.button3.img2} alt1="Texto: Lista de presentes" alt2="ícone de presentes" showComponent={opening}text=""/>
                 </Link>
            </div>}
+
+           { opening && <div className="">
+            <img className="img-casal" src={imagePaths.imgcasal}></img>
+            </div>}
+           <History showComponent={opening} />
            <Countdown showComponent={opening} />
            <Maps showComponent={opening} />
         </>     

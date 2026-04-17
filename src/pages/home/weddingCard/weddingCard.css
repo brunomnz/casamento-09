@@ -1,12 +1,18 @@
 .weddingCard {
     position: relative;
+    top: 10px;
+    left: 10px;
     width: 600px;
     height: 400px;
     transform-style: preserve-3d;
     transform: perspective(2500px);
     transition: 4s;
+
     @media screen and (max-width: 768px) {
         width: 360px;
         height: 232px;
     }
+
+    margin-left: auto;
+    margin-right: auto;
 }
