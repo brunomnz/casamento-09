@@ -1,4 +1,3 @@
-import { useRef } from 'react'
 import './history.css'
 import { showProp } from '../../../interfaces/interface'
 import historyData from '../../../assets/history/history.json'
